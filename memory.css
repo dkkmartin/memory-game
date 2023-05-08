@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+#wrapper{
+	max-width:1000px;
+	margin:1em auto;
+}
+h1{
+	text-align:center;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:1.5em;
+}
+main{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1%;
+}
+img{
+    width:100%;
+	height:auto;
+	cursor:pointer;
+}
+section{
+	background-color:#F00;
+	height:2px;
+	width:0;
+	margin:6px 0;
+}
